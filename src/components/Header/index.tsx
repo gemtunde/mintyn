@@ -57,7 +57,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 const Header = (props: Props) => {
   return (
-    <nav className="sticky top-4 z-40 flex flex-row flex-wrap items-center bg-white justify-between shadow-md shadow-white">
+    <nav className="sticky top-[0.5px] flex flex-row flex-wrap items-center bg-white justify-between shadow-lg">
       <div className="ml-[22px]">
         <h2 className="text-[1.5rem] text-primary-main leading-[48px] font-bold tracking-[-1px] pb-8px">
           TransMonitor

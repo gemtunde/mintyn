@@ -22,8 +22,10 @@ export default function RootLayout({
         <div className="flex flex-col">
           <Header />
           <div className="flex">
-            <Sidebar />
-            <div> {children} </div>
+            <div className="w-[20%]">
+              <Sidebar />
+            </div>
+            <div className="w-[80%]"> {children} </div>
           </div>
         </div>
       </body>

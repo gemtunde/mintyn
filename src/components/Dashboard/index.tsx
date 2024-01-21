@@ -5,6 +5,7 @@ import DailyTransactions from "../DailyTransactions";
 import Charts from "../Charts";
 import Orders from "../Orders";
 import Payment from "../Payment";
+import Tables from "../Table";
 
 type Props = {};
 
@@ -20,6 +21,9 @@ const Dashboard = (props: Props) => {
           <Orders />
           <Payment />
         </div>
+      </div>
+      <div className="w-[97%]">
+        <Tables />
       </div>
     </main>
   );

@@ -299,9 +299,9 @@ const Charts = () => {
   ]);
 
   return (
-    <div className="bg-white">
-      <Chart options={options} series={series} width={600} height={400} />
-    </div>
+    <>
+      <Chart options={options} series={series} width={680} height={400} />
+    </>
   );
 };
 

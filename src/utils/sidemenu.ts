@@ -24,19 +24,19 @@ export const menus = [
       },
       {
         subId: 2,
-        subName: "Reconcilled Payments",
+        subName: "Reconcilled",
         path: "/",
         icon: Overview,
       },
       {
         subId: 3,
-        subName: "Un-Reconcilled Payments",
+        subName: "Un-Reconcilled",
         path: "/",
         icon: Overview,
       },
       {
         subId: 4,
-        subName: "Manual Settlement",
+        subName: "Manual",
         path: "/",
         icon: Overview,
       },
@@ -53,19 +53,19 @@ export const menus = [
       },
       {
         subId: 2,
-        subName: "Reconcilled Orders",
+        subName: "Reconcilled",
         path: "/",
         icon: Overview,
       },
       {
         subId: 3,
-        subName: "Pending Orders",
+        subName: "Pending",
         path: "/",
         icon: Overview,
       },
       {
         subId: 4,
-        subName: "Manual Settlement",
+        subName: "Manual",
         path: "/",
         icon: Overview,
       },
@@ -77,7 +77,7 @@ export const menus = [
     submenus: [
       {
         subId: 1,
-        subName: "Merchant Profile",
+        subName: "Merchant",
         path: "/",
         icon: Overview,
       },

@@ -127,7 +127,7 @@ const Tables = (props: Props) => {
         </div>
       </div>
       <DataTable
-        columns={columns}
+        columns={columns as any}
         data={records}
         selectableRows
         pagination
